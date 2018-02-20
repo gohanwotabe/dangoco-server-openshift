@@ -18,4 +18,5 @@ const child_process=require('child_process');
 const args=['-h',conf.host,'-p',conf.port,'--maxBrokenTunnelTimeout',conf.maxBrokenTunnelTimeout,'-u',conf.user];
 if(conf.deflate)args.push('--enable-deflate',conf);
 if(conf.log)args.push('-L');
+console.log('using args:',args)
 child_process.fork(require.resolve('dangoco/server.js'),args);
