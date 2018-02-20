@@ -1,0 +1,23 @@
+{
+  "name": "dangoco-server-openshift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dangoco": "^0.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gohanwotabe/dangoco-server-openshift.git"
+  },
+  "author": "gohanwotabe@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gohanwotabe/dangoco-server-openshift/issues"
+  },
+  "homepage": "https://github.com/gohanwotabe/dangoco-server-openshift#readme"
+}
