@@ -5,7 +5,7 @@ dangoco client server manager
 */
 
 var conf=module.exports={
-    port:process.env.PORT||80,
+    port:process.env.PORT||8080,
     host:process.env.HOST||'0.0.0.0',
     log:(process.env.LOG=='true')?true:false,
     deflate:(process.env.DEFLATE=='true')?true:false,

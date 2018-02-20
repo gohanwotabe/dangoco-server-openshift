@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start" : "npm i npm;./node_modules/.bin/npm i node@9.5.0;./node_modules/.bin/node index.js",
+    "start" : "npm i npm && ./node_modules/.bin/npm i node@9.5.0 && ./node_modules/.bin/node index.js",
     "test": "echo poi;echo test;"
   },
   "repository": {
