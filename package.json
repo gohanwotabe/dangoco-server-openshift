@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start" : "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "npm i n;./node_modules/.bin/n 9.5.0;node index.js",
+    "test": "echo poi;echo test;"
   },
   "repository": {
     "type": "git",
